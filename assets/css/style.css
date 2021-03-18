@@ -1,0 +1,124 @@
+/* 1. setting */
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 14px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    width: 1170px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+
+/* ------------------- header-top ------------------------- */
+
+.headerTop {
+    background-color: #f8f8f8;
+    color: #696969;
+}
+
+.headerTop__wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 51px;
+}
+
+.headerTop__wrap-left__text {
+    font-weight: 500;
+}
+
+.headerTop__wrap-right {
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.headerTop__wrap-right__phone {
+    font-weight: bold;
+    counter-reset: #6d6d6d;
+}
+
+.headerTop__wrap-right__address {
+    margin-left: 15px;
+}
+
+
+/* ------------------------------- main header --------------------------  */
+
+.headerMain {
+    background-color: #fff;
+    height: 90px;
+    border-bottom: 1px solid silver;
+}
+
+.headerMain__wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.headerMain__wrap-left {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.headerMain__wrap-left__logo {
+    width: 160px;
+}
+
+.headerMain__wrap-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90px;
+}
+
+.headerMain__wrap-right__nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+.headerMain__wrap-right__nav li {
+    padding: 10px 40px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #000;
+}
+
+.headerMain__wrap-right__nav li>a:hover {
+    color: #086ad8;
+}
+
+.headerMain__wrap-right__nav li>a {
+    color: #333333;
+    transition: 0.4s;
+}
+
+.headerMain__wrap-right__search {
+    padding: 10px 0 10px 20px;
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+.headerMain__wrap-right__search:hover {
+    color: #086ad8;
+}
